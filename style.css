@@ -33,10 +33,22 @@ p{
     font-weight:400;
     color:#000 !important;
 }
+.card{
+    border:none;
+    border-radius: 10px;
 
-#header{
+}
+.shadow{
+    box-shadow: 10px 5px 10px lightgray;;
+}
+
+.bg-light-g{
     background: rgb(218, 246, 229);
 }
 .banner{
     padding: 40px 50px;
+}
+.box-img{
+    width:80px;
+
 }
