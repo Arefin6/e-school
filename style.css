@@ -1,0 +1,42 @@
+/* utilityclasses */
+p{
+ line-height: 1.9;
+}
+
+.container{
+    margin-bottom: 50px;
+}
+.heading-1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.cl-primary{
+    color:rgb(33,181,115);;
+}
+.btn-green{
+    background-color: rgb(33,181,115);
+    color:#fff;
+    display: block;
+    width:200px;
+    padding:20px 45px;
+    border:none;
+    border-radius:38px;
+    font-size: 21px;
+}
+.btn-grren:focus{
+    border: none;
+}
+.nav-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight:400;
+    color:#000 !important;
+}
+
+#header{
+    background: rgb(218, 246, 229);
+}
+.banner{
+    padding: 40px 50px;
+}
