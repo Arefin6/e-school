@@ -1,4 +1,9 @@
 /* utilityclasses */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
 p{
  line-height: 1.9;
 }
@@ -99,4 +104,25 @@ p{
     width:150px;
     left:53%;
     top:-23%;
+}
+/* last-section */
+#last-section{
+    background: #282531;
+    color:#fff;
+    padding:50px 40px;
+}
+.list-group{
+    color:
+}
+.list{
+    list-style: none;
+}
+.list-item{
+    margin: 5px 0;
+}
+footer{
+    background-color: #282531;
+    color:#fff;
+    text-align: center;
+    padding: 10px 2px;
 }
