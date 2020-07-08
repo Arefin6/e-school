@@ -27,6 +27,16 @@ p{
 .btn-grren:focus{
     border: none;
 }
+.btn-green-sm{
+    background-color: rgb(33,181,115);
+    color:#fff;
+    display: block;
+    width:180px;
+    padding:10px 15px;
+    border:none;
+    border-radius:38px;
+    font-size: 14px;
+}
 .nav-link{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 22px;
@@ -35,11 +45,32 @@ p{
 }
 .card{
     border:none;
-    border-radius: 10px;
+    border-radius: 15px;
+    padding:30px;
+
+}
+.card-footer{
+    background-color: #fff;
+    border-top:none;
+   
+}
+.footer-box img{
+    width:30px;
+   position: absolute;
+   left:-20px;
+}
+
+
+.footer-box p{
+    color:#333;
+    font-size: 13px;
+    line-height: 1.2;
+    margin: auto;
+    font-weight: bold;
 
 }
 .shadow{
-    box-shadow: 10px 5px 10px lightgray;;
+    box-shadow: 10px 5px 10px lightgray;
 }
 
 .bg-light-g{
