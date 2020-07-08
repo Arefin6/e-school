@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link rel="stylesheet" href="responsive.css">
+
     <title>E-School</title>
     
 </head>
@@ -56,7 +58,7 @@
      <section id="info">
         <div class="container">
             <div class="card-deck">
-                <div class="card bg-light-g  d-flex  align-items-center pt-5">
+                <div class="card bg-light-g d-flex align-items-center pt-5 ">
                     <img src="img/ICON/book.png" class="box-img" alt="...">
                   <div class="card-body ">
                     <h5 class="card-title">1500+ Topices</h5>
@@ -65,21 +67,21 @@
                  
                   
                 </div>
-                <div class="card d-flex  align-items-center pt-5 shadow">
+                <div class="card d-flex flex-sm-wrap align-items-center pt-5 shadow">
                     <img src="img/ICON/Student.png" class="box-img" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">1800+ Students</h5>
                       <p class="card-text">Learn anything</p>
                     </div>
                   </div>
-                  <div class="card bg-light-g d-flex  align-items-center pt-5">
+                  <div class="card bg-light-g d-flex  align-items-center pt-5  col-md-3  col-sm-6 col-12">
                     <img src="img/ICON/Test.png" class="box-img" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">9k+ Test Token </h5>
                       <p class="card-text">Learn anything</p>
                     </div>
                   </div>
-                  <div class="card bg-light-g  align-items-center pt-5">
+                  <div class="card bg-light-g  align-items-center pt-5 col-md-3  col-sm-6 col-12">
                     <img src="img/ICON/Students.png" class="box-img" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">2000+ Graduates</h5>
@@ -95,8 +97,8 @@
      <section id="courses">
           <div class="container">
               <h2 class="text-center mt-5 mb-5">Online Courses</h2>
-            <div class="card-deck">
-                <div class="card shadow">
+            <div class="card-deck row">
+                <div class="card shadow col-sm-12 col-md-6">
                   <img src="img/Photos/Morder pyschology.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Mordern Psycology</h5>
@@ -121,7 +123,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="card shadow">
+                <div class="card col-12 col-sm-12 col-md-6 shadow">
                   <img src="img/Photos/Morder psyc.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Morden Science</h5>
@@ -147,7 +149,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="card shadow">
+                <div class="card col-sm-12 col-md-6 shadow">
                   <img src="img/Photos/Morder pychons.png" class="card-img-top" alt="...">
                   <div class="card-body">
                         <h5 class="card-title">Morden Accounting</h5>
@@ -178,14 +180,99 @@
      </section>
      <!-- courses section ended -->
 
+     <section class="teacher">
+        <div class="container">
+        <h2 class="text-center mt-5 mb-5">Teachers</h2>
+      <div class="card-deck row">
+          <div class="card shadow col-sm-12 col-md-6">
+            <img src="img/Photos/teacher1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jack Smith</h5>
+              <p class="card-text lead">Founder & CEO</p>
+              <button class="btn-green-sm">Contact</button>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="footer-box col-md-6 ">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="img" src="img/ICON/calendar.png" alt=""> 
+                        <p>Start 20,july 2020</p>
+                    </div>
+                    
+                </div>
+            <div class="footer-box  offset-md-2 col-md-4 ">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img  src="img/ICON/people.png" class="people" alt=""> 
+                    <p>60 seats</p>
+                </div>
+            </div>
+              </div>
+          </div>
+          </div>
+          <div class="card col-12 col-sm-12 col-md-6 shadow">
+            <img src="img/Photos/teacher2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jane Olivia</h5>
+              <p class="card-text lead">Head of Science</p>
+              <button class="btn-green-sm">Contact</button>
+            </div>
+            <div class="card-footer">
+              <div class="row">
+                <div class="footer-box col-md-6">
+                    <div class="d-flex justify-content-center align-items-center">
+                        <img class="people " class="img" src="img/ICON/calendar.png" alt=""> 
+                        <p>Start20,july 2020</p>
+                    </div>
+                    
+                </div>
+                
+            <div class="footer-box offset-md-2 col-md-4">
+                <div class="d-flex justify-content-between align-items-center ">
+                    <img class="people " src="img/ICON/people.png" alt=""> 
+                    <p>60 seats</p>
+                </div>
+            </div>
+              </div>
+          </div>
+          </div>
+          <div class="card col-sm-12 col-md-6 shadow">
+            <img src="img/Photos/teacher3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                  <h5 class="card-title">Adam Doe</h5>
+                  <p class="card-text lead">Assistant Proffesor</p>
+                  <button class="btn-green-sm">Contact</button>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                  <div class="footer-box col-md-6 ">
+                      <div class="d-flex justify-content-center align-items-center">
+                          <img class="img" src="img/ICON/calendar.png" alt=""> 
+                          <p>Start20,july 2020</p>
+                      </div>
+                      
+                  </div>
+                  
+              <div class="footer-box offset-md-2 col-md-4">
+                  <div class="d-flex justify-content-center align-items-center">
+                      <img class="people" src="img/ICON/people.png" alt=""> 
+                      <p>60 seats</p>
+                  </div> 
+              </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+     </section>
+
      <section>
          <div class="container test">
              <h2 class="text-center mb-3">Testimonial</h2>
              <div class="row test">
-                 <div class="col-md-5">
+                 <div class="col-12 col-md-5 col-sm-12 ">
                    <img src="img/Photos/Man.png" class="img-fluid test-img" alt="">
                  </div>
-                 <div class="col-md-7">
+                 <div class="col-12 col-md-7 col-sm-14">
                       <p class="lead text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime totam commodi veritatis libero sint temporibus. Cumque eius enim ad voluptatibus!</p>
                  </div>
              </div>
